@@ -5,7 +5,7 @@
   <img src="https://github.com/user-attachments/assets/e041ccb0-65be-4d86-8fd4-2269b500bc68" alt="Frame_151-removebg-preview" width="300">
 </p>
 
-<p align="center">TeleCaixa is a simple and intuitive TV player for M3U playlists, designed for kiosk environments.</p>
+<p align="center">Televiu is a simple and intuitive TV player for M3U playlists, designed for kiosk environments.</p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
@@ -25,7 +25,7 @@
 ```mermaid
 sequenceDiagram
     participant User as Smartphone
-    participant System as TeleCaixa
+    participant System as Televiu
     participant Server as Server (for playlist storage)
 
     System->>System: Configure Wi-Fi
@@ -39,7 +39,7 @@ sequenceDiagram
 
 ## About
 
-TeleCaixa is an open-source project aimed at providing a straightforward media player experience without unnecessary complexity.
+Televiu is an open-source project aimed at providing a straightforward media player experience without unnecessary complexity.
 
 ## License
 
