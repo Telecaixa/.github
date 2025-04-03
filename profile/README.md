@@ -2,7 +2,7 @@
 > This project is currently under construction. Changes and updates will be applied in the future.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e041ccb0-65be-4d86-8fd4-2269b500bc68" alt="Frame_151-removebg-preview" width="300">
+  <img src="https://github.com/user-attachments/assets/d46d9df3-7013-4d84-8905-90a2f934bcd5" alt="Frame_151-removebg-preview" width="300">
 </p>
 
 <p align="center">Televiu is a simple and intuitive TV player for M3U playlists, designed for kiosk environments.</p>
@@ -28,7 +28,7 @@ sequenceDiagram
     participant System as Televiu
     participant Server as Server (for playlist storage)
 
-    System->>System: Configure Wi-Fi
+    System->>System: Setup
     System->>User: Display QR code for M3U upload
     User->>Server: Upload M3U playlist
     Server->>User: Confirm playlist upload
@@ -36,10 +36,6 @@ sequenceDiagram
     System->>System: Load new playlist
     System->>User: Playlist successfully loaded
 ```
-
-## About
-
-Televiu is an open-source project aimed at providing a straightforward media player experience without unnecessary complexity.
 
 ## License
 
